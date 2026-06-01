@@ -12,5 +12,8 @@ def linear_regression_closed_form(X, y):
     XTy = XT @ y
 
     w = np.linalg.inv(XTX) @ XTy
+   
+ 
+ 
 
     return w
